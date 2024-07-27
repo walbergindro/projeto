@@ -1,0 +1,225 @@
+@media (max-width:700px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    html{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: fixed;
+        width: 100%;
+        background-color: #161616;
+        font-size: 20px;
+        z-index: 5;
+        padding: 15px;
+        transform: translateY(-12px);
+    }
+    .fundo-header{
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        width: 100%;
+        transform: translateY(0px) translateX(-10px);
+        margin: 0;
+        padding: 10px;
+    }
+    .fundo-menumob{
+        display: flex;
+    }
+    #icone-menumob,#icone-personmob{
+        font-size: 32px;
+        color: white;
+       
+        font-weight: bold;
+    }
+
+    .abrir-menu{
+        display: none;
+        flex-wrap: wrap;
+        position: absolute;
+        width: 100%;
+        height:1900px;
+        background-color:#1f1f1f;
+        color: white;
+        transform: translateX(-20px) translateY(-20px);
+        z-index: 4;
+        margin-left: -150px;
+        padding: 20px;
+
+    }
+
+
+
+    .fundo-fechar-abrirmenu{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        padding: 10px;
+    }
+    #logomenu{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        font-size: 40px;
+
+        padding: 20px;
+    }
+    #closeheader-menu{
+        font-size: 60px;
+        padding: 10px;
+    }
+
+
+
+    .fundo-infor-menu{
+        display: flex;
+        align-items: normal;
+        margin: 0;
+        padding: 0;
+        height: 90%;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+    .fundo-navmenu{
+        display: flex;
+        justify-content: right;
+        align-items: left;
+        flex-wrap: wrap;
+        transform: translateY(-760px);
+        height: 5%;
+        width: 100%;
+    }
+    #dados-navmenu{
+        display: flex;
+        width: 100%;
+        margin-top:30px;
+        padding: 20px;
+        transform: translateY(0px);
+        color: white;
+        font-size: 25px;
+
+    }
+    #dados-navmenu:active{
+        padding: 20px;
+        background-color: #024A56;
+    }
+    .btn-entrarmenu{
+        width: 80%;
+        padding: 10px;
+        background-color:#024A56;
+    }
+    .btn-entrarmenu:hover{
+        background-color: #00ffcc;
+    }
+    .fundo-logomob{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logomob{
+        width: 70%;
+        animation-fill-mode:backwards;
+        animation: giro 5s infinite;
+    }
+    @keyframes giro {
+        50%{
+            transform: rotate(360deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+        
+    }
+    .fundo-personmob{
+        display: flex;
+    }
+
+}
+@media (max-width:650px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    .abrir-menu{
+        padding-left: 60px;
+    }
+}
+@media (max-width:500px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    .abrir-menu{
+        padding-left: 60px;
+    }
+}
+@media (max-width:450px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    .abrir-menu{
+        padding-left: 60px;
+    }
+}
+@media (max-width:400px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    .abrir-menu{
+        padding-left: 90px;
+    }
+}
+@media (max-width:300px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    .abrir-menu{
+        padding-left: 120px;
+    }
+}

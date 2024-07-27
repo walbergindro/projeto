@@ -1,0 +1,172 @@
+@media (max-width:700px) {
+
+    .mainmob{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        background-color: #161616;
+    }
+    .fundo-imagem{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+    #imagem-principal{
+        max-width: 300px;
+    }
+    .fundo-cursos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+    .fundo-texto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+    .fundo-textoprincipal{
+        display: flex;
+        width: 100%;
+    }
+    #texto-curso-principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        width: 100%;
+        height: 30px;
+        padding: 10px;
+      
+    }
+
+
+
+
+
+    .fundo-cursosmob{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 25px;
+        padding: 10px;
+        transform: translateY(0px);
+        z-index: 4;
+    }
+    #bloco-modulomob{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 100%;
+        height: 340px;
+
+        border: 4px solid #35E0FF;
+        border-end-end-radius: 0px;
+        transition: 0.8s;
+
+        margin-left: 8px;
+        margin-top: 30px;
+        transform:scale(0.9);
+        cursor: pointer;
+    }
+    #bloco-modulomob:active{
+        background-color: #35E0FF;
+        border: 4px solid #00ffcc;
+    }
+    #bloco-cimamob{
+        width: 100%;
+        height:20%;
+        padding: 10px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    #icone-modulomob{
+        font-size:40px;
+        color: #00ffcc;
+    }
+    #titulo-cursomob{
+        font-size: 30px;
+        font-weight: bold;
+        color:white;
+        padding: 0px;
+    }
+    #linguagem{
+        font-size: 20px;
+        font-weight: bold;
+        color:white;
+    }
+    #comece-titulomob{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 0;
+        font-size: 25px;
+        color: white;
+        width: 100%;
+        background-color:#00ffff7c;
+
+    }
+    #lembrete-curso{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding: 10px;
+        width: 100%;
+        color:white;
+        text-align: center;
+    }
+
+    .fundo-engrenagem{
+        position: absolute;
+        color: white;
+        transform: translateY(-640px) translateX(190px);
+        animation: fundoengrenagem 5s;
+        opacity: 0;
+        animation-fill-mode:forwards;
+    }
+    @keyframes fundoengrenagem {
+        100%{
+         opacity: 10;
+        }
+    }
+
+    #icone-engrenagem{
+        font-size: 140px;
+        animation: engrenagem 15s infinite;
+        animation-fill-mode:forwards;
+        animation-delay: 0;
+
+    }
+    @keyframes engrenagem {
+        100%{
+            transform: rotate(180deg);
+        }
+    }
+
+
+    
+    
+
+}
+
+@media (max-width:600px){
+    #colorcurso{
+
+    }
+}

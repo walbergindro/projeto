@@ -1,0 +1,58 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.article-login{
+    background-color: #0e5a6b;
+    transform: translateY(0px);
+    width: 70%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+
+}
+
+.div-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 40%;
+    transform: translateY(-80px) translateX(40px);
+}
+
+.div-cadastro{
+    background-color: aqua;
+    width: 50%;
+    height: 400px;
+    transform: translateX(70px);
+    border-radius: 30px;
+}
+
+
+#texto-login{
+    color: white;
+    font-size: 40px;
+}
+
+#input-email, #input-senha{
+    font-size: 30px;
+    background-color: #0e5a6b;
+    border:solid 2px white;
+    margin-top: 20px;
+   
+}
+
+#entrar-login{
+    font-size: 30px;
+    width: 200px;
+    margin-top: 20px ;
+    background-color: aqua;
+    border:solid 1px aqua;
+    color: white;
+    border-radius: 10px;
+}

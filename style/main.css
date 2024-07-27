@@ -1,0 +1,470 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+main{
+    display: flex;
+    width: 100%;
+    height: 700px;
+
+    transform: translateY(8px);
+
+}
+
+.fundo-cursos,.fundo-cursosmob{
+    display: none;
+}
+
+.fundo-imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    animation:fundo-imagem ;
+    animation-duration:1s;
+    transform: scale(3.8);
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+
+}
+
+.sessao2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    animation:fundo-imagem ;
+    animation-duration:1s;
+    transform: scale(3.8);
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes fundo-imagem {
+    100%{
+        transform: scale(1.0);
+        opacity: 10;
+    }
+}
+#imagem-principal{
+    width:460px;
+}
+
+#imagem-principal2{
+    width:460px;
+    transform: translateX(800px) scale(0.8);
+    
+}
+
+#imagem-principal3{
+    width:460px;
+    transform: translateX(80px) scale(0.8);
+}
+
+#imagem-principal4{
+    width:460px;
+    transform: translateX(800px) scale(0.8);
+    
+}
+
+#botao-curso{
+    transform: translateX(920px) translateY(-20px);
+    font-size: 30px;
+    background-color: #00ffcc;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#botao-curso2{
+    transform: translateX(200px) translateY(-20px);
+    font-size: 30px;
+    background-color: #00ffcc;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#botao-curso3{
+    transform: translateX(920px) translateY(-20px);
+    font-size: 30px;
+    background-color: #00ffcc;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#botao-curso:hover, #botao-curso2:hover, #botao-curso3:hover{
+    border-radius: 0px;
+    background-color: #00FDFF;
+   
+   
+}
+
+.fundo-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-size: 25px;
+    padding: 10px;
+    animation: fundo-cursos;
+    animation-duration: 0.5s;
+    transform: scale(3.8);
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+@keyframes fundo-cursos {
+    100%{
+        transform: scale(1.0);
+        opacity: 10;
+    }
+}
+
+.fundo-texto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    color: white;
+}
+
+.fundo-texto2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    color: white;
+    transform: translateX(-200px);
+}
+
+.fundo-texto3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    color: white;
+    transform: translateX(420px);
+}
+
+.fundo-texto4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    color: white;
+    transform: translateX(-200px);
+}
+
+.fundo-textoprincipal{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.fundo-textoprincipal2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.fundo-textoprincipal3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.fundo-textoprincipal4{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+#texto-curso-principal{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0;
+    height: 50px;
+    animation:texto-curso-principal ;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+@keyframes texto-curso-principal {
+    100%{
+        opacity: 0.9;
+    }    
+}
+
+#texto-curso-principal2{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0;
+    height: 50px;
+    animation:texto-curso-principal ;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+@keyframes texto-curso-principal2 {
+    100%{
+        opacity: 0.9;
+    }    
+}
+
+#texto-curso-principal3{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0;
+    height: 50px;
+    animation:texto-curso-principal ;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+@keyframes texto-curso-principal3 {
+    100%{
+        opacity: 0.9;
+    }    
+}
+
+#texto-curso-principal4{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0;
+    height: 50px;
+    transform: translateY(-50px);
+    animation:texto-curso-principal ;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+@keyframes texto-curso-principal4 {
+    100%{
+        opacity: 0.9;
+    }    
+}
+
+
+#texto-curso-segundario{
+    display: flex;
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+    line-height: 0.7cm;
+    padding: 0;
+    margin: 0;
+    margin-top:60px ;
+    
+    animation: texto-curso-segundario;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+    transform: translateX(7000px);
+
+}
+@keyframes texto-curso-segundario {
+    50%{
+        transform: translateX(0px);
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.0);
+        margin-top: 10px;
+    }    
+}
+
+#texto-curso-segundario2{
+    display: flex;
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+    line-height: 0.7cm;
+    padding: 0;
+    margin: 0;
+    margin-top:60px ;
+    
+    animation: texto-curso-segundario;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+    transform: translateX(7000px);
+
+}
+@keyframes texto-curso-segundario2 {
+    50%{
+        transform: translateX(0px);
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.0);
+        margin-top: 10px;
+    }    
+}
+
+#texto-curso-segundario3{
+    display: flex;
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+    line-height: 0.7cm;
+    padding: 0;
+    margin: 0;
+    margin-top:60px ;
+    
+    animation: texto-curso-segundario;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+    transform: translateX(7000px);
+
+}
+@keyframes texto-curso-segundario3 {
+    50%{
+        transform: translateX(0px);
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.0);
+        margin-top: 10px;
+    }    
+}
+
+#texto-curso-segundario4{
+    display: flex;
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+    line-height: 0.7cm;
+    padding: 0;
+    margin: 0;
+    margin-top:60px ;
+    
+    animation: texto-curso-segundario;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+    transform: translateX(7000px);
+
+}
+@keyframes texto-curso-segundario4 {
+    50%{
+        transform: translateX(0px);
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.0);
+        margin-top: 10px;
+    }    
+}
+
+.fundo-modulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px;
+    width: 90%;
+    height: 200px;
+    margin-top: -250px;
+}
+#bloco-modulo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 30%;
+    height: 100px;
+    background-color:#024A56;
+    border: 8px solid #35E0FF;
+    border-radius:0px 0px 60px 0px ;
+    margin-left:10px;
+    margin-top:15px ;
+    transform: translateX(8000px);
+
+
+
+
+    transition: 0.2s;
+    animation: aparecer;
+    animation-duration: 2s ;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);    
+}
+#bloco-modulo:hover{
+    background-color: #00FDFF;
+    border: 8px solid #00ffcc;
+}
+@keyframes aparecer {
+    50%{
+        transform: translateX(0px);
+    }
+    100%{
+        
+        transform: scale(0.8);
+    }
+    
+}
+#bloco-cima{
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#icone-modulo{
+    color: #00FDFF;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+#titulo-curso{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+#comece-titulo{
+    font-size: 17px;
+    color:#00ffcc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

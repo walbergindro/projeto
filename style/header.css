@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.fundo-header{
+    display: none;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+
+    font-size: 20px;
+    z-index: 2;
+
+    padding: 10px;
+}
+.ativarrolagem{
+    background-color:#161616;
+    transition: 2s;
+}
+.fundo-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#logodesk{
+    width: 48px;
+    animation-fill-mode:backwards;
+    animation: giro 5s infinite;
+}
+@keyframes giro {
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+ 
+        transform: rotate(360deg);
+        
+    }
+    
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#dados-nav{
+    color: white;
+    margin-left: 80px;
+}
+#dados-nav:hover{
+    color: #00FDFF;
+}
+.btn-entrar{
+    padding: 15px;
+    border-radius: 10%  ;
+    background-color:#1F1F1F;
+    transition: 0.8s;
+    animation: btn-entrar;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+@keyframes btn-entrar {
+    100%{
+        background-color: #00FDFF;
+    }
+    
+}
+.btn-entrar:hover{
+    border-radius: 0% 0% 30% 0%;
+    font-weight: bold;
+    background-color: #00FDFF;
+}
+
+
+
+.fundo-pesquisaprincipal{
+    display:flex;
+    align-items: center;
+    width: 3%;
+    height: 20%;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #00FDFF;
+    animation: lupaAbrir;
+    animation-duration: 8s;
+    overflow-x: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes lupaAbrir {
+    100%{
+        width: 20%;
+        background-color: rgba(10, 10, 10, 0.404);
+    }
+    
+}
+
+#icones-pesquisa{
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+#icone-closeheader{
+    display: flex;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+#ativarcloseinput{
+    display: flex;
+    font-size: 25px;
+    color: red;
+    padding: 10px;
+}
+
+#input-pesquisa{
+    width: 80%;
+    font-size: 20px;
+    padding: 5px;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+    border-bottom: 2px solid white;
+    color: white;
+}

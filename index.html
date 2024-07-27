@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/7349bc3776.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logotipo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/section.css"> 
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="mob/header.css">
+    <link rel="stylesheet" href="mob/main.css">
+    <link rel="stylesheet" href="mob/footer.css">
+    <link rel="stylesheet" href="style/projeto.css">
+    <link rel="stylesheet" href="style/pageprojeto.css">
+    <link rel="stylesheet" href="mob/mobpageprojeto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Falcon</title>
+</head>
+
+<body>
+
+    <style>
+        body{
+            background:linear-gradient(to top ,  #1f1f1f 100% , #161616 80% );
+        }
+
+        .ativar{
+            display: flex;
+
+
+        }
+        header{
+            background-color: #161616;
+        }
+
+        main{
+        background: rgb(22,22,22);
+        background: linear-gradient(0deg, rgba(22,22,22,1) 0%, rgba(4,62,71,1) 100%);
+        }
+     
+        @media (max-width:1040px){
+            nav,.fundo-icone,.fundo-logo,
+            .fundo-pesquisaprincipal,.fundo-modulos{
+            display: none;
+            }
+            body{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                overflow-x: hidden;
+            }
+            html{
+                width: 100%;
+    
+            }
+
+            #imagem-menino{
+                display: none;
+            }
+
+            .submenu-pageprojeto{
+                width: 95%;
+            }
+
+            #projetos-titulo{
+                transform: translateY(-80px);
+            }
+
+            .fundo-projeto{
+                margin-top: 20px;
+            }
+
+        }
+   
+    </style>
+
+    <header class="menuheader">
+
+        <div class="fundo-header">
+
+            <div class="fundo-menumob">
+                <i class="bi bi-list" id="icone-menumob"></i>
+                
+                <div class="abrir-menu" id="abrir-menu">
+
+                    <div class="fundo-infor-menu">
+                        
+                        <div class="fundo-fechar-abrirmenu">
+                            <p id="logomenu">código falcon</p>
+
+                            <i class="bi bi-x" id="closeheader-menu"></i>
+                        </div>
+                        
+                        <div class="fundo-navmenu">
+                            <a href="manutençao.html" id="dados-navmenu">Cursos</a>
+                            <a href="manutençao.html" id="dados-navmenu">Atividades</a>
+                            <a href="manutençao.html" id="dados-navmenu">Projetos</a>
+                            <a href="manutençao.html" id="dados-navmenu">Blog</a>
+                            <a href="manutençao.html" id="dados-navmenu" class="btn-entrarmenu">Entrar</a>
+                        </div>
+                     
+                    </div>
+                </div>
+
+            </div>
+            <div class="fundo-logomob">
+                <img src="logotipo.png" alt="" id="logomob">
+            </div>
+            <div class="fundo-person">
+                <i class="bi bi-person-fill" id="icone-personmob"></i>
+            </div>
+        </div>
+
+        <div class="fundo-logo">
+            <img src="logotipo.png" alt="" id="logodesk">
+
+        </div>
+
+        <div class="fundo-pesquisaprincipal">
+            <i class="bi bi-search" id="icones-pesquisa"></i>
+            <input type="text" id="input-pesquisa" placeholder="O que Procura ?" >
+            <i class="bi bi-x" id="icone-closeheader"></i>
+
+        </div>
+        
+        <nav>
+            <a href="manutençao.html" id="dados-nav">Cursos</a>
+            <a href="manutençao.html" id="dados-nav">Atividades</a>
+            <a href="manutençao.html" id="dados-nav">Projetos</a>
+            <a href="manutençao.html" id="dados-nav">Blog</a>
+            <a href="manutençao.html" id="dados-nav" class="btn-entrar">Entrar</a>
+        </nav>
+
+    </header>
+
+    <main class="main-pageprojeto">
+        <div class="fundo-texto-pageprojeto">
+            <h1 id="titulo-pageprojeto">Tenha o Seu Própio Portfólio!</h1>
+            <p id="texto-pageprojeto">Bem-vindos a página de projetos que disponibilizamos para vocês, com o intuito de dar um bom início no mercado de trabalho aos nossos alunos. Aqui você encontrará projetos de sites completos para montar e iniciar sua carreira.</p>
+        </div>
+       
+    
+        <img src="Ativo 6-8.png" id="imagem-menino" controls></img>
+
+
+    </main>
+
+    <section>
+
+        <article class="article-pageprojeto">
+            <div class="submenu-pageprojeto">
+                <p id="projetos-titulo">Projetos</p>
+    
+            </div>
+        </article>
+
+        <article class="article-projetos">
+            <div class="div-projetos">
+                <div class="fundo-projeto">
+                    <div class="img-projeto">
+
+                    </div>
+                    <p id="texto-projeto">Jornal Moderno</p>
+                </div>
+
+                <div class="fundo-projeto">
+                    <div class="img-projeto">
+
+                    </div>
+                    <p id="texto-projeto">Jornal Moderno</p>
+                </div>
+
+                <div class="fundo-projeto">
+                    <div class="img-projeto">
+
+                    </div>
+                    <p id="texto-projeto">Jornal Moderno</p>
+                </div>
+
+                <div class="fundo-projeto">
+                    <div class="img-projeto">
+
+                    </div>
+                    <p id="texto-projeto">Jornal Moderno</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-projetos">
+            <div class="div-projetos">
+                <div class="fundo-projeto">
+                    <div class="img-projeto">
+
+                    </div>
+                    <p id="texto-projeto">Jornal Moderno</p>
+                </div>
+
+                <div class="fundo-projeto">
+                    <div class="img-projeto">
+
+                    </div>
+                    <p id="texto-projeto">Jornal Moderno</p>
+                </div>
+
+                <div class="fundo-projeto">
+                    <div class="img-projeto">
+
+                    </div>
+                    <p id="texto-projeto">Jornal Moderno</p>
+                </div>
+
+                <div class="fundo-projeto">
+                    <div class="img-projeto">
+
+                    </div>
+                    <p id="texto-projeto">Jornal Moderno</p>
+                </div>
+            </div>
+        </article>
+
+      </section>
+      

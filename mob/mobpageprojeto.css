@@ -1,0 +1,42 @@
+@media(max-width:700px){
+    .fundo-texto-pageprojeto{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 300px;
+    }
+    
+    #titulo-pageprojeto{
+       font-size: 30px;
+    }
+    
+    #texto-pageprojeto{
+        font-size: 20px;
+    
+    }
+    
+    #imagem-menino{
+        width:300px;
+    }
+
+    #icones-pesquisa{
+        display: flex;
+        color: aqua;
+    }
+
+    #barra,#barra2,#pesquisa-pageprojeto,#a-basico, #a-inter, #a-avancado{
+        display: none;
+    }
+    .submenu-pageprojeto{
+       height: 40px;
+       width: 100%;
+    }
+
+    .div-titulo{
+        width: 90%;
+    }
+
+    #titulo-projetos{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,130 @@
+body::-webkit-scrollbar {
+    width: 12px;   
+    background-color: #161616;          
+  }
+  body::-webkit-scrollbar-track {
+    background: #043e47;        /* color of the tracking area */
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color:#009cb8 ;    /* color of the scroll thumb */       /* roundness of the scroll thumb */  /* creates padding around scroll thumb */
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+.main-pageprojeto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+
+}
+
+.fundo-cursos,.fundo-cursosmob{
+    display: none;
+}
+
+section{
+    background-color:#161616;
+}
+
+.article-pageprojeto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-projetos{
+    margin-top: 50px;
+}
+.fundo-texto-pageprojeto{
+    width: 400px;
+}
+
+#titulo-pageprojeto{
+   color: white;
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#texto-pageprojeto{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imagem-menino{
+    width:600px;
+}
+
+.submenu-pageprojeto{
+    display: flex;
+    align-items: baseline;
+    height:80px ;
+    width: 80%;
+    border-bottom: 4px solid aqua;
+}
+
+#projetos-titulo{
+    color: white;
+    font-size: 50px;
+    transform: translateY(-50px);
+}
+
+.div-projetos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+}
+
+.fundo-projeto{
+    background-color: aqua;
+    border-radius: 15px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.img-projeto{
+    background-color: #161616;
+    margin-top: 8px;
+    width:180px ;
+    height: 100px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#icon-seta{
+    font-size: 40px;
+    color: aqua;
+}
+
+#texto-projeto{
+    font-size: 15px;
+    color: white;
+}
+
+
+

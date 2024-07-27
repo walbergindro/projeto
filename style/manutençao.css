@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color:#024A56;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    color: white;
+    transform: translateY(250px);
+}
+.fa-circle-exclamation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 68px;
+    width: 100%;
+    padding: 10px;
+}
+#titulo-manu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    margin: 0;
+}
+#texto-manu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size:20px;
+    margin-top:15px;
+}
+a{
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    background-color: aqua;
+    padding: 10px;
+
+}

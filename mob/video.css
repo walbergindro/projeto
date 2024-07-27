@@ -1,0 +1,91 @@
+@media (max-width:700px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow-x: hidden;
+    }
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    main{
+        width: 100%;
+    }
+
+
+
+
+    #video,.fundo-video{
+        width: 100%;
+        height: 380px;
+    }
+
+    .fundo-dicas{
+        display: flex;
+        flex-wrap: wrap;
+        transform: translateY(0px);
+        width: 100%;
+        height: 300px;
+        background-color: #032F3D;
+        padding: 10px;
+        padding-top:30px ;
+        margin: 0;
+    }
+    .bloco-dicas{
+        display: flex;
+        align-items: normal;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+
+    }
+    #titulo-dicas{
+        text-align: center;
+    }
+    .fundo-material{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-wrap: wrap;
+        transform: translateY(0px);
+    }
+    #fundo-aprendizado,#fundo-arquivo{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+
+        padding: 0;
+        margin: 0;
+        transform: translateX(-0px);
+    }
+    #lista-aprendizado{
+        display: flex;
+        flex-wrap: wrap;
+        text-wrap: wrap;
+        width: 80%;
+        padding: 10px;
+    }
+    #dados-aprendizado{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        text-wrap: wrap;
+    }
+    #fundo-aprendizado{
+        border-right: 0px solid #032F3D;
+        border-bottom: 5px solid #032F3D;
+    }
+    .fundo-arquivo{
+        width: 100%;
+        height: 160px;
+    }
+
+    #baixar-arquivo{
+        font-size: 24px;
+        transform: translateY(60px);
+    }
+}
